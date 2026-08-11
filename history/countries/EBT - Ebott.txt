@@ -19,15 +19,15 @@
 	# 3. ADD IDEAS & POLICIES HERE
 	add_ideas = {
 		Lacks_International_Recognition
-		labour_unions
 		edu_04
 		health_03
 		social_05
 		bureau_02
 		police_05
-		defence_03
+		defence_04
 		md_closed_economy
-		volunteer_women
+		draft_army
+		drafted_women
 		small_medium_business_owners
 	}
 
