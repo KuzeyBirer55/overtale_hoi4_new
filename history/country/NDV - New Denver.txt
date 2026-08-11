@@ -1,16 +1,14 @@
 capital = 1223
 
 2000.1.1 = {
-	# 1. RECRUIT CHARACTERS FIRST
-	recruit_character = NDV_ray_beck
 
-	# 2. CORE ECONOMIC & STATE VARIABLES
+	# 1. CORE ECONOMIC & STATE VARIABLES
 	set_variable = { gdp_per_capita = 2.710 }
 	set_variable = { var = treasury value = 4 }
 	set_variable = { var = corporate_tax_rate value = 20 }
 	set_variable = { var = population_tax_rate value = 20 }
 
-	# 3. GOVERNMENT EXPENDITURES & POLICIES
+	# 2. GOVERNMENT EXPENDITURES & POLICIES
 	# Added standard MD starting policy baseline (adjust levels 00-05 as needed)
 	add_ideas = {
 		edu_01
@@ -21,7 +19,7 @@ capital = 1223
 		defence_01
 	}
 
-	# 4. TECHNOLOGIES
+	# 3. TECHNOLOGIES
 	set_technology = {
 		infantry_weapons = 1
 		util_vehicle_0 = 1
@@ -33,7 +31,7 @@ capital = 1223
 		radar = 1
 	}
 
-	# 5. INFLUENCE & DIPLOMACY
+	# 4. INFLUENCE & DIPLOMACY
 	init_influence = yes
 	set_variable = { domestic_influence_amount = 14 }
 	add_to_array = { influence_array = EBT.id }
@@ -44,7 +42,7 @@ capital = 1223
 
 	give_military_access = EBT
 
-	# 6. POLITICS & POPULARITIES SETUP
+	# 5. POLITICS & POPULARITIES SETUP
 	set_politics = {
 		ruling_party = democratic   # Corrected spelling from "demcratic"
 		last_election = "1998.11.5" # Set election date before campaign start
@@ -61,7 +59,7 @@ capital = 1223
 
 	start_politics_input = yes
 
-	# 7. MILLENNIUM DAWN SUB-IDEOLOGY ARRAY
+	# 6. MILLENNIUM DAWN SUB-IDEOLOGY ARRAY
 	set_variable = { party_pop_array^0 = 0 }    # Western_Autocracy
 	set_variable = { party_pop_array^1 = 0.78 } # Conservatism
 	set_variable = { party_pop_array^2 = 0.08 } # Liberalism
@@ -91,4 +89,7 @@ capital = 1223
 	add_to_array = { ruling_party = 1 }
 
 	startup_politics = yes
+
+	recruit_character = NDV_ray_beck
+
 }
