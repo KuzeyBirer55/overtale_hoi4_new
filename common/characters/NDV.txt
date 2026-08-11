@@ -4,7 +4,7 @@ characters = {
 		
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/NDV_ray_beck.png"
+				large = "gfx/leaders/NDV_ray_beck.tga"
 			}
 		}
 		
