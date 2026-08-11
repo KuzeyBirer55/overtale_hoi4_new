@@ -12,11 +12,11 @@
 	# Added standard MD starting policy baseline (adjust levels 00-05 as needed)
 	add_ideas = {
 		Non_State_Actor
-		edu_01
-		health_01
-		social_01
-		bureau_01
-		police_01
+		edu_03
+		health_03
+		social_03
+		bureau_03
+		police_02
 		defence_01
 		volunteer_army
 		volunteer_women
