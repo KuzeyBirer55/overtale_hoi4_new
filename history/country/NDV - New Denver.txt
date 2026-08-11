@@ -32,7 +32,7 @@
 	give_military_access = EBT
 
 	set_politics = {
-	    ruling_party = demcratic
+	    ruling_party = democratic
 	    last_election = "2013.11.5"
 	    election_frequency = 24
 	    elections_allowed = yes
