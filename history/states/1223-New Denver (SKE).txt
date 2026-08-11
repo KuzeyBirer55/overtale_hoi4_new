@@ -1,0 +1,23 @@
+state={
+	id=1223
+	name="STATE_1223"
+	manpower=12946
+	state_category = state_01
+	buildings_max_level_factor=1
+	local_supplies=1
+
+	history = {
+		owner = NDV
+		add_core_of = NDV
+		add_core_of = EBT
+		add_core_of = USA
+
+		victory_points = { 10535 5 } #New Denver/Craig Town
+		victory_points = { 12633 2 } #Rock Springs
+		victory_points = { 15209 1 } #Vernal
+	}
+
+	provinces={
+		10535 12633 15085 15209 
+	}
+}

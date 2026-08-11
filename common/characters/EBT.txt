@@ -1,0 +1,132 @@
+characters = {
+	EBT_asgore_dreemurr = {
+		name = "Asgore Dreemurr"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/EBT/EBT_asgore_dreemurr.tga"
+				small = "gfx/leaders/EBT/EBT_asgore_dreemurr_small.tga"
+			}
+		}
+		country_leader = {
+			ideology = Monarchist # Nationalist Outlook
+			#traits = { benevolent_monarch }
+			#expire: "9999.12.31"
+			id = -1
+		}
+	}
+
+	EBT_toriel_dreemurr = {
+		name = "Toriel Dreemurr"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/EBT/EBT_toriel_dreemurr.tga"
+				small = "gfx/leaders/EBT/EBT_toriel_dreemurr_small.tga"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = EBT_toriel_tog
+			allowed = { original_tag = EBT }
+			#traits = { administrative_reformer }
+			cost = 100
+		}
+	}
+
+	EBT_alexander_projn = {
+		name = "Alexander Projn"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/EBT/EBT_alexander_projn.tga"
+				small = "gfx/leaders/EBT/alexander_projn_small.tga"
+			}
+		}
+		country_leader = {
+			ideology = Neutral_Autocracy # Non-Aligned Outlook
+			#traits = { pragmatic_realist father_of_ebotian_identity }
+			expire = "2232.5.14"
+			id = -1
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = EBT_alexander_projn_advisor
+			allowed = { original_tag = EBT }
+			#traits = { chief_presidential_advisor war_veteran_pragmatist }
+			cost = 100
+		}
+	}
+
+	EBT_asriel_dreemurr = {
+		name = "Asriel Dreemurr"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/EBT/EBT_asriel_dreemurr"
+				small = "gfx/leaders/EBT/EBT_asriel_dreemurr_small"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = EBT_asriel_dreemurr_advisor
+			allowed = { original_tag = EBT }
+			#traits = { crown_prince arcane_tech_pioneer }
+			cost = 100
+		}
+	}
+
+	EBT_alphys = {
+		name = "Dr. Alphys"
+		portraits = {
+			civilian = {
+				small = "gfx/leaders/EBT/EBT_alphys_small"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = EBT_alphys_advisor
+			allowed = { original_tag = EBT }
+			#traits = { minister_of_science soul_tech_innovator }
+			cost = 100
+		}
+	}
+
+	EBT_elena_furytail = {
+		name = "Elena Furytail"
+		portraits = {
+			civilian = {
+				small = "gfx/leaders/EBT/EBT_elena_furytail_small"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = EBT_elena_furytail_advisor
+			allowed = { original_tag = EBT }
+			#traits = { director_of_national_intelligence shadowy_figure }
+			cost = 100
+		}
+	}
+
+	EBT_undyne = {
+		name = "Undyne"
+		portraits = {
+			army = {
+				large = "gfx/leaders/EBT/EBT_undyne"
+				small = "gfx/leaders/EBT/undyne_small"
+			}
+		}
+		corps_commander = {
+			#traits = { unyielding_leader urban_fighter harsh_leader }
+			skill = 4
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 2
+		}
+		advisor = {
+			slot = high_command
+			idea_token = EBT_undyne_military_advisor
+			allowed = { original_tag = EBT }
+			#traits = { grand_general_eaf minister_of_war }
+			cost = 100
+		}
+	}
+
+}

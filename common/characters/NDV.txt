@@ -1,0 +1,18 @@
+characters = {
+	NDV_ray_beck = {
+		name = NDV_ray_beck
+		
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NDV_ray_beck.png"
+			}
+		}
+		
+		country_leader = {
+			ideology = conservatism
+			traits = {}
+			expire = "2028.9.10"
+			id = -1
+		}
+	}
+}

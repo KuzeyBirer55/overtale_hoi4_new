@@ -1,0 +1,25 @@
+state={
+	id=1222
+	name="STATE_1222"
+	manpower=6000000
+	buildings_max_level_factor=20
+	local_supplies=1
+	state_category = state_08
+
+	history = {
+		owner = EBT
+		add_core_of = EBT
+
+		victory_points = { 12561 5 } #Snowdin
+		victory_points = { 15219 20 } #Gamma City
+		victory_points = { 15225 5 } #Waterfall
+		victory_points = { 15217 10 } #Hotland
+		victory_points = { 15232 15 } #Delta City
+		victory_points = { 15090 1 } #Ruinland
+		victory_points = { 15228 30 } #New Home
+	}
+
+	provinces={
+		868 1658 1827 6887 7684 7999 9792 12561 15086 15090 15208 15217 15218 15219 15225 15227 15228 15229 15230 15231 15232 
+	}
+}
