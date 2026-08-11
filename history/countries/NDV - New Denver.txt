@@ -11,12 +11,15 @@
 	# 2. GOVERNMENT EXPENDITURES & POLICIES
 	# Added standard MD starting policy baseline (adjust levels 00-05 as needed)
 	add_ideas = {
+		Non_State_Actor
 		edu_01
 		health_01
 		social_01
 		bureau_01
 		police_01
 		defence_01
+		volunteer_army
+		volunteer_women
 	}
 
 	# 3. TECHNOLOGIES
