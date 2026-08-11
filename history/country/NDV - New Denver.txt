@@ -2,7 +2,7 @@ capital = 1223
 
 2000.1.1 = {
 	# 1. RECRUIT CHARACTERS FIRST
-	recruit_character = NDV_ray_becker
+	recruit_character = NDV_ray_beck
 
 	# 2. CORE ECONOMIC & STATE VARIABLES
 	set_variable = { gdp_per_capita = 2.710 }
