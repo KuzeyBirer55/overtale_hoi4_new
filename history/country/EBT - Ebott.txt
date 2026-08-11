@@ -1,16 +1,8 @@
 capital = 1222
 
 2000.1.1 = {
-	# 1. RECRUIT CHARACTERS FIRST
-	recruit_character = EBT_asgore_dreemurr
-	recruit_character = EBT_toriel_dreemurr
-	recruit_character = EBT_asriel_dreemurr
-	recruit_character = EBT_undyne
-	recruit_character = EBT_alphys
-	recruit_character = EBT_alexander_projn
-	recruit_character = EBT_elena_furytail
 
-	# 2. CORE VARIABLES
+	# 1. CORE VARIABLES
 	set_variable = { gdp_per_capita = 14.000 }
 	set_variable = { var = debt value = 0 }
 	set_variable = { var = int_investments value = 0 }
@@ -18,13 +10,13 @@ capital = 1222
 	set_variable = { var = corporate_tax_rate value = 12 }
 	set_variable = { var = population_tax_rate value = 20 }
 
-	# 3. INFLUENCE
+	# 2. INFLUENCE
 	init_influence = yes
 	add_to_array = { influence_array = USA.id }
 	add_to_array = { influence_array_val = 20 }
 	startup_influence = yes
 
-	# 4. ADD IDEAS & POLICIES HERE
+	# 3. ADD IDEAS & POLICIES HERE
 	add_ideas = {
 		Lacks_International_Recognition
 		labour_unions
@@ -41,7 +33,7 @@ capital = 1222
 
 	set_technology = { }
 
-	# 5. POLITICS SETUP
+	# 4. POLITICS SETUP
 	set_popularities = {
 		democratic = 0
 		communism = 0
@@ -91,4 +83,12 @@ capital = 1222
 
 	set_variable = { term_limit = 2 }
 	set_variable = { current_term = 2 }
+
+	recruit_character = EBT_asgore_dreemurr
+	recruit_character = EBT_toriel_dreemurr
+	recruit_character = EBT_asriel_dreemurr
+	recruit_character = EBT_undyne
+	recruit_character = EBT_alphys
+	recruit_character = EBT_alexander_projn
+	recruit_character = EBT_elena_furytail
 }
