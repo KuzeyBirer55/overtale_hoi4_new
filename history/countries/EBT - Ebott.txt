@@ -17,6 +17,13 @@
 	startup_influence = yes
 
 	# 3. ADD IDEAS & POLICIES HERE
+
+	set_autonomy = {
+	    target = NDV
+	    autonomous_state = autonomy_autonomous_state_colored
+	    freedom_level = 0.5
+	}
+
 	add_ideas = {
 		Lacks_International_Recognition
 		edu_04
