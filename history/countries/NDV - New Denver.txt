@@ -18,8 +18,14 @@
 		bureau_03
 		police_02
 		defence_01
+		mixed_economy
 		volunteer_army
 		volunteer_women
+		intervention_global_interventionism
+		officer_international_education
+		western_country
+		christian
+		land_of_the_free
 	}
 
 	# 3. TECHNOLOGIES
@@ -92,6 +98,6 @@
 
 	startup_politics = yes
 
-	recruit_character = NDV_ray_beck
+	recruit_character = NDV_david_derose
 
 }
