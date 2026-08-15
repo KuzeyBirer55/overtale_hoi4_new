@@ -5,7 +5,7 @@ characters = {
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/NDV/NDV_david_derose.tga"
-				small = "gfx/leaders/NDV/NDV_david_derose
+				small = "gfx/leaders/NDV/NDV_david_derose_small.tga"
 			}
 		}
 		
