@@ -1,10 +1,11 @@
 characters = {
 	NDV_ray_beck = {
-		name = NDV_ray_beck
+		name = NDV_david_derose
 		
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/NDV_ray_beck.tga"
+				large = "gfx/leaders/NDV/NDV_david_derose.tga"
+				small = "gfx/leaders/NDV/NDV_david_derose
 			}
 		}
 		
