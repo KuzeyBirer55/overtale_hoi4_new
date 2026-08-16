@@ -1,7 +1,7 @@
 state={
 	id=1223
 	name="STATE_1223"
-	manpower=12946
+	manpower=9168
 	state_category = state_01
 	buildings_max_level_factor=1
 	local_supplies=1
