@@ -98,6 +98,6 @@
 
 	startup_politics = yes
 
-	recruit_character = NDV_david_derose
+	recruit_character = NDV_dave_pike
 
 }
